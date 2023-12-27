@@ -1,0 +1,41 @@
+{
+  "name": "common-utils-core",
+  "version": "1.0.0",
+  "description": "common utils",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "keywords": [
+    "common",
+    "cm",
+    "utils"
+  ],
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "unpkg": "dist/logic-expression-exec.min.js",
+  "author": "Caize Chen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chencaize/common-utils-core"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-transform-runtime": "^7.23.6",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.12.1"
+  },
+  "dependencies": {
+    "moment": "2.29.1"
+  }
+}
